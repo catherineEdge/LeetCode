@@ -5,14 +5,14 @@
             "name": "C Debug (MSYS2 UCRT64)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\a.exe",
+            "program": "${fileDirname}/a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "build-c",
             "setupCommands": [
                 {
